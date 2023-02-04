@@ -1,18 +1,24 @@
 <?php
 
 $conta1 = [
+    
     'titular' => 'Titular: Vinicius',
     'saldo' => 'Saldo: 1000'
+    
 ];
 
 $conta2 = [
+   
     'titular' => 'Titular: Maria',
     'saldo' => 'Saldo: 1000',
+
 ];
 
 $conta3 = [
+    
     'titular' => 'Titular: Alberto',
     'saldo' => 'Saldo: 300'
+
 ];
 
 
