@@ -19,12 +19,7 @@ $contasCorrentes = [
 
 ];
 
-$contasCorrentes['123.258.852-12'] = [
-    
-    'titular' => 'Titular: Claudia',
-    'saldo' => 'Saldo: 300'
-
-];
+$contasCorrentes['123.456.789-10']['saldo'] -= 500;
 
 foreach ($contasCorrentes as $cpf => $conta) {
   
