@@ -1,5 +1,9 @@
 <?php
 
+exibeMensagem ($mensagem) {
+    echo $mensagem . PHP_EOL;
+}
+
 $contasCorrentes = [
     '123.456.789-10' => [
         'titular' => 'Maria',
@@ -27,7 +31,6 @@ if (500 > $contasCorrentes['123.456.789-11']['saldo']) {
     $contasCorrentes['123.456.789-11']['saldo'] -= 500;
 
 foreach ($contasCorrentes as $cpf => $conta) {
+    exibeMensagem($cpf . " " . $conta['titular'] . ' ' . $conta['saldo']);
 
-    echo $cpf . " " . $conta['titular'] . ' ' . $conta['saldo'] . PHP_EOL;
-    
 }
