@@ -1,6 +1,6 @@
 <?php
 
-require('funcoes.php');
+require_once 'funcoes.php';
 
 $contasCorrentes = [
 
